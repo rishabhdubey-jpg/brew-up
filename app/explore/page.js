@@ -2,6 +2,7 @@ import Link from "next/link";
 import connectDb from "@/db/connectDb";
 import User from "@/models/User";
 
+
 export const dynamic = "force-dynamic";
 
 const categories = [
