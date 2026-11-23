@@ -1,6 +1,7 @@
 
 import CreatorDirectory from "@/components/CreatorDirectory";
 import { fetchCreators } from "@/actions/useractions";
+export const dynamic = "force-dynamic";
 
 export const metadata = {
   title: "Creators - BrewUp",
